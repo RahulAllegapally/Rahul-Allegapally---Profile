@@ -1,0 +1,8 @@
+NLP produces new and exciting results on a daily basis, and is a very large field.
+However, few keypractical applications come up much more frequently than any other:
+
+    Identifying different cohorts of users/customers (e.g. predicting churn, lifetime value, product preferences)
+    Accurately detecting and extracting different categories of feedback (positive and negative reviews/opinions,
+    mentions of particular attributes such as clothing size/fit…)
+    Classifying text according to intent (e.g. request for basic help, urgent problem)
+
