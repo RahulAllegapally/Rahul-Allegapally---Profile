@@ -1,0 +1,24 @@
+first
+
+eval_data.txt -> Test data for phrase extraction
+script.py -> The scipt.py file has the pipeline for the complete phrase extraction process.
+regex_generator.py -> The regex_generator.py creates a python file with a stack of regex patterns for phrase extraction.
+training_classifier.py -> The training_classifier.py is used to train the Machine learning model to classify sentences into two groups: 'Found','Not Found'(phrases).  
+
+training_data.tsv -> Labeled sentenses for phrase extraction.
+
+
+
+After running script.py
+
+regex_matcher.py -> This file is used to extract the phrases from the eval_data.txt
+
+Bag_of_Words_model_new.csv -> Output of the classifier on the test data without passing it through the phrase extractor.
+
+my_classifier.pickle -> Saving our trained model
+
+my_vectorizer.pickle -> Saving our vectorizer model
+
+output.txt -> The output of the extraction using the regex_matcher.py without passing it through the classifier. 
+
+submission.csv -> The final submission once the test sentences are passed through both the classifier and phrase extracter.
